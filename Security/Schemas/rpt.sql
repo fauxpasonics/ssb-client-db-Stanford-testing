@@ -1,0 +1,5 @@
+CREATE SCHEMA [rpt]
+AUTHORIZATION [SSBCLOUD\ameitin]
+GO
+GRANT EXECUTE ON SCHEMA:: [rpt] TO [db_svcLogi]
+GO

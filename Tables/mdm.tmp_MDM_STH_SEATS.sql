@@ -1,0 +1,10 @@
+CREATE TABLE [mdm].[tmp_MDM_STH_SEATS]
+(
+[PATRON] [varchar] (20) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
+[STH] [datetime] NULL,
+[SEATS] [int] NULL,
+[TRANS] [datetime] NULL
+)
+GO
+CREATE CLUSTERED INDEX [ix_MDM_STH_SEATS] ON [mdm].[tmp_MDM_STH_SEATS] ([PATRON])
+GO
